@@ -130,3 +130,19 @@ footer p {
   height: 14px;
   stroke-width: 1.5;
 }
+
+
+.socials i {
+  font-size: 14px;
+}
+
+.socials a {
+  color: #000;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.socials a:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+}
