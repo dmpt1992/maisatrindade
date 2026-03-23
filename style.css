@@ -112,3 +112,21 @@ footer p {
   font-size: 11px;
   color: #888;
 }
+
+
+.socials a {
+  color: #000;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+
+.socials a:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+.socials svg {
+  width: 14px;
+  height: 14px;
+  stroke-width: 1.5;
+}
