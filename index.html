@@ -36,7 +36,7 @@
   </div>
 
   <nav>
-    <a href="#">CONTACTOS</a>
+    <a href="#contactos">CONTACTOS</a>
   </nav>
 </header>
 
@@ -46,7 +46,7 @@
 </section>
 
 <!-- FOOTER -->
-<footer>
+<footer id="contacto">
   <div class="footer-grid">
 
     <div>
@@ -74,6 +74,14 @@
   <script>
   lucide.createIcons();
 </script>
-
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href'))
+      .scrollIntoView({ behavior: 'smooth' });
+  });
+});
+</script>
 </body>
 </html>
