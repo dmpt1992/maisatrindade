@@ -170,59 +170,6 @@ footer p {
 
 
 
-/* MOBILE */
-@media (max-width: 768px) {
-
-  /* esconder sidebar */
-  .sidebar {
-    display: none;
-  }
-
-  /* header ocupa tudo */
-  header {
-    left: 0;
-    width: 100%;
-    padding: 15px 20px;
-  }
-
-  /* hero full */
-  .hero {
-    margin-left: 0;
-    padding-top: 70px;
-  }
-
-  .hero img {
-    height: 70vh;
-  }
-
-  /* logo central menor */
-  .hero-logo img {
-    height: 180px;
-  }
-
-  /* footer */
-  footer {
-    margin-left: 0;
-    padding: 40px 20px;
-  }
-
-  .footer-grid {
-    grid-template-columns: 1fr;
-    gap: 25px;
-  }
-
-  nav a {
-    margin-left: 15px;
-    font-size: 12px;
-  }
-
-  .logo img {
-    height: 28px;
-  }
-
-
-}
-
 
 
 .hero img {
@@ -252,10 +199,55 @@ footer p {
 
 @media (max-width: 768px) {
 
+  /* esconder sidebar */
   .sidebar {
     display: none;
   }
 
+  /* header ocupa tudo */
+  header {
+    left: 0;
+    width: 100%;
+    padding: 15px 20px;
+  }
+
+  /* hero */
+  .hero {
+    margin-left: 0;
+    padding-top: 70px;
+  }
+
+  .hero img {
+    height: 70vh;
+  }
+
+  /* logo */
+  .hero-logo img {
+    height: 180px;
+  }
+
+  /* footer */
+  footer {
+    margin-left: 0;
+    padding: 40px 20px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  /* menu */
+  nav a {
+    margin-left: 15px;
+    font-size: 12px;
+  }
+
+  .logo img {
+    height: 28px;
+  }
+
+  /* 🔥 redes sociais */
   .footer-socials {
     display: flex;
     justify-content: center;
