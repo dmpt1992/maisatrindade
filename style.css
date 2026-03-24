@@ -220,3 +220,27 @@ footer p {
     height: 28px;
   }
 }
+
+
+.hero img {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+
+
+
+footer {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+
+.hero img {
+  filter: grayscale(100%) contrast(95%);
+}
+
+
+.line {
+  opacity: 0.4;
+}
