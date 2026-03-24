@@ -142,7 +142,28 @@ footer p {
   transition: 0.3s;
 }
 
+
+.logo img {
+  height: 30px;
+}
 .socials a:hover {
   opacity: 1;
   transform: translateY(-2px);
+}
+
+
+.hero {
+  position: relative;
+}
+
+.hero-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-logo img {
+  height: 120px;
+  opacity: 0.9;
 }
