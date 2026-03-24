@@ -219,6 +219,13 @@ footer p {
   .logo img {
     height: 28px;
   }
+
+
+  /* mostrar redes no footer */
+.footer-socials {
+  display: flex;
+  justify-content: center;
+}
 }
 
 
@@ -243,4 +250,26 @@ footer {
 
 .line {
   opacity: 0.4;
+}
+.footer-socials {
+  display: none;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.footer-socials a {
+  color: #fff;
+  font-size: 16px;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.footer-socials a:hover {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
 }
